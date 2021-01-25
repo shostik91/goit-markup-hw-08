@@ -1,0 +1,106 @@
+footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.adres {
+    color: $color-wight;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+    white-space: nowrap;
+} 
+.adress a {
+font-size: 14px;
+line-height: 1.67;
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+}
+.footer-cont {
+    margin-top: 9px;
+}
+.footer-item {
+    display: flex;
+}
+.footer-item li {
+    margin-right: 70px;
+}
+.footer-item2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.li-masanger2 .masanger-link2 {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-item2 .li-masanger2:not(:last-child) {
+    margin-right: 10px;
+}
+.mesanger-icon2 {
+    fill: $color-wight;
+    margin: auto;
+}
+.masanger-link2:hover {
+    background-color: #2196F3;
+    transition: opacity 250ms var(--timing-function);
+}
+b {
+    color: $color-wight;
+}
+.footeer-item {
+    justify-content: center;
+}
+.footer-form {
+    display: flex;
+}
+.footer-input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    background-color: #2F303A;
+    display: inline-flex;
+    margin-right: 10px;
+}
+.footer-form .button {
+    width: 200px;
+    height: 50px;
+    padding: 10px 29px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    line-height: 1.87;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-align: left;
+    border: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-wight;
+    background-color: $accent-color;
+}
+.icon-send {
+    width: 24px;
+    height: 24px;
+    fill: $color-wight;
+}
+.join {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+}

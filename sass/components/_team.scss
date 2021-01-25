@@ -1,0 +1,96 @@
+.team-conteiner {
+    background-color: #F5F4FA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
+    }   
+    .team-title {
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .team {
+        justify-content: center;
+        text-align: center;
+        @media screen and (min-width: 768px){
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -30px;
+            margin-top: -30px;
+        }
+    }
+
+    .worker {
+        background:$color-wight;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        width: 100%;
+        @media screen and (min-width: 768px){
+            width: 354px;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        @media screen and (min-width: 1200px){
+            width: 270px;
+        }
+
+        &:not(:last-child) {
+        margin-bottom: 30px;
+            @media screen and (min-width: 768px){
+                margin-bottom: unset;
+            }
+        }
+    }
+    
+    .team h3 {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .team p {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 19px;
+        color: #757575;
+        margin-top: 10px;
+    }
+    .list-masanger {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 16px;
+    }
+    .list-masanger .li-masanger:not(:last-child) {
+        margin-right: 10px;
+    }
+    .li-masanger .masanger-link {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background-color: $color-wight;
+    }
+    .masanger-link:hover {
+        background-color: #2196F3;
+        opacity: 1;
+        transition: opacity 250ms $timing-function;
+    }
+    .mesanger-icon {
+        fill: #AFB1B8;
+        margin: auto;
+    }
+    .mesanger-icon:hover {
+        fill: $color-wight;
+        opacity: 1;
+        transition: opacity 250ms $timing-function;
+    }
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }

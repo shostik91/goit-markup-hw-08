@@ -1,0 +1,39 @@
+.guide {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
+}
+.buttom {
+    min-width: 73px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    background: #F5F4FA;
+    border-radius: 4px;
+    box-shadow:none;
+    padding: 6px 22px;
+    &:hover, &:focus {
+        background-color: $accent-color;
+        color: $color-wight;
+        transition: opacity 250ms $timing-function;
+    }
+}
+.buttom-button{
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 768px){
+        justify-content: center;
+    }
+}
+.buttom-button button {
+    text-align: center;
+    margin-right: 8px;
+}
+.buttom {
+    margin-bottom: 15px;
+}
