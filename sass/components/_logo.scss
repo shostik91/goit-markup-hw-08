@@ -1,0 +1,32 @@
+.logo-container {
+    &--centred {
+      text-align: center;
+      margin-bottom: 20px;
+      @media screen and (min-width: 1200px) {
+        text-align-last: left;
+      }
+    }
+    &_link {
+      color: $primary-text-color;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 1.2;
+      text-decoration: none;
+      display: block;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      @media screen and (min-width: 768px) {
+        padding-top: 24px;
+        padding-bottom: 24px;
+      }
+      span {
+        color: $accent-color;
+      }
+      &--inverse {
+        color: $color-wight;
+        padding-bottom: 0;
+        padding-top: 0;
+      }
+    }
+  }
